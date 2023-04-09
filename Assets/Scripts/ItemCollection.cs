@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ItemCollection : MonoBehaviour
 {
     public Button collectButton;
+    public bool check = false;
 
     private void Start()
     {
@@ -28,8 +29,11 @@ public class ItemCollection : MonoBehaviour
 
     public void Collect()
     {
-        Destroy(gameObject);
+        check = true;
+        gameObject.SetActive(false);
+        //Destroy(gameObject);
         collectButton.gameObject.SetActive(false);
+        
     }
 
 }
