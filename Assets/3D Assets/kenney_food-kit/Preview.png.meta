@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Assets/kenney_food-kit/Preview.png.meta
 guid: 23986d58a343b6d4faa7cbbabf7ea465
+========
+guid: 24dbdc739d4699b43866f799d8532250
+>>>>>>>> 50ac7e80eba87818a01f846b6fd16d64f96b869a:Assets/kenney_survival-kit/Previews/barrelOpen.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/yeni ada lv2.unity.meta
 guid: 160b42d9373d64c72b7c7d3d0b089506
+========
+guid: b7cbb1f6bf273914b862bd07fa0f9430
+>>>>>>>> 50ac7e80eba87818a01f846b6fd16d64f96b869a:Assets/hd island.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

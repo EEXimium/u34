@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3D Assets/kenney_fantasy-town-kit/Preview.png.meta
 guid: 03dc8c7c5cdbf3f4189b0b7df02eafbe
+========
+guid: 175a2908e34b1b34d8dadbd0a383ac7e
+>>>>>>>> 50ac7e80eba87818a01f846b6fd16d64f96b869a:Assets/kenney_survival-kit/Previews/barrel.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
