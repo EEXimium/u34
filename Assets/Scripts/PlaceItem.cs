@@ -7,18 +7,35 @@ public class PlaceItem : MonoBehaviour
 {
     public Button Place;
     public GameObject item;
+    public GameObject obj1;
+    public GameObject obj2;
+    public GameObject obj3;
+    private ItemCollection boolCheck;
+    private bool check;
+    private bool check2;
+    private bool check3;
 
     void Start()
     {
-        //buton ve itemin baþlangýçta görünmez olmasýný saðlar.
+        //buton ve itemin baï¿½langï¿½ï¿½ta gï¿½rï¿½nmez olmasï¿½nï¿½ saï¿½lar.
         Place.gameObject.SetActive(false);
         item.SetActive(false);
 
     }
 
+    private void Update()
+    {
+        //boolCheck = cadir.GetComponent<ItemCollection>();
+        check = obj1.GetComponent<ItemCollection>().check;
+        check2 = obj2.GetComponent<ItemCollection>().check;
+        check3 = obj3.GetComponent<ItemCollection>().check;
+
+    }
+
+
     private void OnTriggerEnter(Collider other)
     {
-        //karakterle item etkileþime girdiðinde buton ortaya çýkar.
+        //karakterle item etkileï¿½ime girdiï¿½inde buton ortaya ï¿½ï¿½kar.
         if (other.CompareTag("Player"))
         {
             Place.gameObject.SetActive(true);
@@ -27,7 +44,7 @@ public class PlaceItem : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        ////karakter ve itemin etkileþimi kesildiðinde buton ortadan kalkar.
+        ////karakter ve itemin etkileï¿½imi kesildiï¿½inde buton ortadan kalkar.
         if (other.CompareTag("Player"))
         {
             Place.gameObject.SetActive(false);
@@ -36,11 +53,18 @@ public class PlaceItem : MonoBehaviour
 
     public void Replace()
     {
-        ////buton görünmez olur ve plane yok edilir. Ýstenilen nesne oluþur.
-        Place.gameObject.SetActive(false);
-        Destroy(gameObject);
-        item.SetActive(true);
+        ////buton gï¿½rï¿½nmez olur ve plane yok edilir. ï¿½stenilen nesne oluï¿½ur.
 
+        if (check == true && check2 == true && check3 && true)
+        {
+            Place.gameObject.SetActive(false);
+            Destroy(gameObject);
+            item.SetActive(true);
+        }
+
+        
+        
+        
     }
 
 
