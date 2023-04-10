@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.029152133, g: 0.06444553, b: 0.12695043, a: 1}
+  m_IndirectSpecularColor: {r: 0.029152213, g: 0.064445764, b: 0.12695098, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13504,6 +13504,30 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4681913342374307797, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 411.9059
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681913342374307797, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 44.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681913342374307797, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681913342374307797, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -161
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681913342374307819, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681913342374307819, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0a5a26aa8db06ef49aba845c58d19682, type: 3}
     - target: {fileID: 4681913344062865505, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -13594,7 +13618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4681913344062865516, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4681913344140974668, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
       propertyPath: m_RootOrder
@@ -13643,6 +13667,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4681913344308648080, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
+      propertyPath: m_text
+      value: "\xDC\xC7\xDCNC\xDC G\xDCNE BA\u015ELA"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681913344308648080, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+    - target: {fileID: 4681913344308648080, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
 --- !u!1001 &657252568
@@ -16476,7 +16512,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8663930609146880240, guid: 3aeb89e0df0014239bc2db30b6caa47d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8663930609240658635, guid: 3aeb89e0df0014239bc2db30b6caa47d, type: 3}
       propertyPath: m_Pivot.x
@@ -23168,6 +23204,144 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2478205731848205434, guid: 6704e0dcac690e141add1c8fef09bfec, type: 3}
+--- !u!1 &1171746479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1171746480}
+  - component: {fileID: 1171746482}
+  - component: {fileID: 1171746481}
+  m_Layer: 5
+  m_Name: "ikinciG\xFCnSonu"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1171746480
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171746479}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1617193146}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.4288, y: 127}
+  m_SizeDelta: {x: 659.5499, y: 135.6121}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1171746481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171746479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u201CSevgili g\xFCnl\xFCk,\r\nBug\xFCn kamp yapmak i\xE7in \xE7ad\u0131r
+    kurdum, ya da \xE7ad\u0131r kuruldu mu demeliyim? Bu i\u015Fte bir i\u015F var.
+    Adada kalman\u0131n g\xFCzel yanlar\u0131n\u0131 fark etmeye ba\u015Flad\u0131m.
+    Gece uyumadan y\u0131ld\u0131zlar\u0131 izlemek bana \xE7ok \u015Fey kat\u0131yor\u2026\u201D\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1171746482
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171746479}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1175872492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31396,6 +31570,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7692302531817258288, guid: 40dfbdf2b6e6200479e1f8c657a5156e, type: 3}
+--- !u!224 &1617193146 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4681913344062865505, guid: 8bbcef62137b54bfbbf22a7ee069b878, type: 3}
+  m_PrefabInstance: {fileID: 652372529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1622043213
 PrefabInstance:
   m_ObjectHideFlags: 0
