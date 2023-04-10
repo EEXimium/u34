@@ -20,6 +20,8 @@ public class PlaceItem : MonoBehaviour
         //buton ve itemin ba�lang��ta g�r�nmez olmas�n� sa�lar.
         Place.gameObject.SetActive(false);
         item.SetActive(false);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
     }
 
