@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 1487cebfe3939d2459990023324f7cd6
+  - enabled: 1
+    path: Assets/yeni ada.unity
+    guid: 5a51d98db83ef18478bb440dae7f35bf
+  - enabled: 1
+    path: Assets/yeni ada lv2.unity
+    guid: 160b42d9373d64c72b7c7d3d0b089506
+  - enabled: 1
+    path: Assets/yeni ada lv3.unity
+    guid: 5a03822e585f14e538bfcdc4ed1d18fe
+  - enabled: 1
+    path: Assets/yeni ada lv4.unity
+    guid: fc693684930524bc497766026e401a74
+  - enabled: 1
+    path: Assets/yeni ada lv5.unity
+    guid: d6b31b09c64e14b76bb6b5cfc58d8178
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 2b77111dc2ea15b44a3faa6f10f0d78d
   m_configObjects: {}
