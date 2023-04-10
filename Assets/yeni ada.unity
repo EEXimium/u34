@@ -22273,6 +22273,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3e61536139932684196c3b5836563992, type: 3}
   m_PrefabInstance: {fileID: 1111698301}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1112341433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8663930609240658676, guid: 3aeb89e0df0014239bc2db30b6caa47d, type: 3}
+  m_PrefabInstance: {fileID: 8663930609816343339}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1115598767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31908,6 +31913,8 @@ MonoBehaviour:
   obj1: {fileID: 840885225}
   obj2: {fileID: 1446038748}
   obj3: {fileID: 267300054}
+  checkForNextLvL: 0
+  mn: {fileID: 1112341433}
 --- !u!64 &1558560948
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36045,7 +36052,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1836459884
 MonoBehaviour:
   m_ObjectHideFlags: 0

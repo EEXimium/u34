@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlaceItem : MonoBehaviour
@@ -14,12 +15,16 @@ public class PlaceItem : MonoBehaviour
     private bool check;
     private bool check2;
     private bool check3;
+    public bool checkForNextLvL = false;
+    private bool nextLV = false;
+    private MainMenu mm;
+    public GameObject mn;
 
     void Start()
     {
         //buton ve itemin ba�lang��ta g�r�nmez olmas�n� sa�lar.
         Place.gameObject.SetActive(false);
-        item.SetActive(false);
+        //item.SetActive(false);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
 
@@ -31,6 +36,12 @@ public class PlaceItem : MonoBehaviour
         check = obj1.GetComponent<ItemCollection>().check;
         check2 = obj2.GetComponent<ItemCollection>().check;
         check3 = obj3.GetComponent<ItemCollection>().check;
+
+        if(nextLV == true)
+        {
+            mn.GetComponent<LevelChanger>().FadeToNextLevel();
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
 
     }
 
@@ -59,9 +70,11 @@ public class PlaceItem : MonoBehaviour
 
         if (check == true && check2 == true && check3 && true)
         {
+            checkForNextLvL = true;
             Place.gameObject.SetActive(false);
-            Destroy(gameObject);
+            //Destroy(gameObject);
             item.SetActive(true);
+            nextLV = true;
         }
 
         
